@@ -11,6 +11,7 @@ int main(){
 	int n; // количество измерений
 	int *m; // количество точек по каждому из измерений
 	double value; // величина внешнего воздействия
+	int demo; // режим программы
 
 	setlocale(LC_ALL, "Russian");
 
@@ -28,9 +29,19 @@ int main(){
 
 	cout << "\tВведите величину внешнего воздействия:" << endl; cin >> value;
 
-	if(jacobi_field(n,m,value)!=0) cout << "\tОшибка аллокирования памяти" << endl;
+	cout << "\tДемонстрационный режим програмы (0 - замер времени, 1 - демонстрация работоспособности):" << endl; cin >> demo;
+
+	clock_t t = clock();
+	if(jacobi_field(n,m,value, demo)!=0) cout << "\tОшибка аллокирования памяти" << endl;
+	t = clock()-t;
+
+	double seconds = ((double)t)/CLOCKS_PER_SEC;
+	cout << "\tВремя выполнения: " << seconds << "sec" << endl;
 
 	delete m;
+
+	getchar();
+	getchar();
 
 	return 0;
 }

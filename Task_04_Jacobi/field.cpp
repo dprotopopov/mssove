@@ -11,7 +11,7 @@ using namespace std;
 	int mode; // режим
 *********************************************************/
 
-int jacobi_field(int n,int *m,int *x,double value,int mode){
+int jacobi_field(int n,int *m,int *x,double value,int mode, int demo){
 	double epsilon=1e-7; // минимальное изменение для продолжения итераций
 	int nmax=1000; // максимальное число итераций
 
@@ -33,12 +33,14 @@ int jacobi_field(int n,int *m,int *x,double value,int mode){
 
 	for(int t=0; t<nmax; t++) {
 
-		cout << "\tШаг итерации:" << t << endl;
+		if(demo!=0) cout << "\tШаг итерации:" << t << endl;
 
-		cout << "\tИсходное состояние матрицы:" << endl; 
-		for(int i = 0; i < total; i++) {
-			cout << prevMatrix[i] << '\t'; 
-			if(i%m[0]==m[0]-1) cout << endl;
+		if(demo!=0) {
+			cout << "\tИсходное состояние матрицы:" << endl; 
+			for(int i = 0; i < total; i++) {
+				cout << prevMatrix[i] << '\t'; 
+				if(i%m[0]==m[0]-1) cout << endl;
+			}
 		}
 
 		// Шаг итераций
@@ -64,10 +66,12 @@ int jacobi_field(int n,int *m,int *x,double value,int mode){
 			nextMatrix[i] /= 2*n;
 		}
 
-		cout << "\tНовое состояние матрицы:" << endl; 
-		for(int i = 0; i < total; i++) {
-			cout << nextMatrix[i] << '\t'; 
-			if(i%m[0]==m[0]-1) cout << endl;
+		if(demo!=0) {
+			cout << "\tНовое состояние матрицы:" << endl; 
+			for(int i = 0; i < total; i++) {
+				cout << nextMatrix[i] << '\t'; 
+				if(i%m[0]==m[0]-1) cout << endl;
+			}
 		}
 
 		// Расчёт разницы (кроме точки воздействия при непрерывном воздействии)
@@ -77,11 +81,13 @@ int jacobi_field(int n,int *m,int *x,double value,int mode){
 			else if(delta<abs(nextMatrix[i]-prevMatrix[i]))
 				delta=abs(nextMatrix[i]-prevMatrix[i]);
 
-		cout << "\tМаксимальное изменение матрицы:" << delta << endl; 
+		if(demo!=0) cout << "\tМаксимальное изменение матрицы:" << delta << endl; 
 
-		cout << "\tНажмите ВВОД для продолжения" << endl;
-		getchar();
-		getchar();
+		if(demo!=0) {
+			cout << "\tНажмите ВВОД для продолжения" << endl;
+			getchar();
+			getchar();
+		}
 
 		// Проверка условия прекращения итераций
 		if(delta<epsilon) break;

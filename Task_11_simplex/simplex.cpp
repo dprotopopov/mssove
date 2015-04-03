@@ -11,7 +11,7 @@ using namespace std;
 m - количество неравенств (строк)
 n - количество переменных (столбцов)
 *********************************************************/
-double *ration(double **a, double *b, double *c, int m, int n){
+double *ration(double **a, double *b, double *c, int m, int n, int demo){
 	
 	// Метод искусственного базиса
 	// http://matesha.ru/book/lp5.php
@@ -52,8 +52,8 @@ double *ration(double **a, double *b, double *c, int m, int n){
 	plan[m][0]=0;
 	plan[m+1][0]=0;
 
-	if(simplex(plan, index, flags, m, n, 1)!=0) return NULL; // Исключение искусственных переменных
-	if(simplex(plan, index, flags, m, n, 0)!=0) return NULL; // Нахождение решения
+	if(simplex(plan, index, flags, m, n, 1, demo)!=0) return NULL; // Исключение искусственных переменных
+	if(simplex(plan, index, flags, m, n, 0, demo)!=0) return NULL; // Нахождение решения
 
 	double * result;
 	result = new double[n]; //результат
@@ -78,20 +78,21 @@ m - количество базисных переменных
 n - количество переменных
 extended = 0,1 - флаг использования расширенной таблицы
 *********************************************************/
-int simplex(double **plan, int *index, int *flags, int m, int n, int extended) {
+int simplex(double **plan, int *index, int *flags, int m, int n, int extended, int demo) {
 	while(1){
+		if(demo!=0) {
+			cout << "\tТекущий план plan["<<1+m+extended<<","<<1+m+n<<"]:" << endl;
+			for(int i = 0; i < 1+m+extended; i++) {
+				for(int j = 0; j < 1+m+n; j++) 
+					cout << plan[i][j] << "\t";
+				cout << endl;
+			}
 
-		cout << "\tТекущий план plan["<<1+m+extended<<","<<1+m+n<<"]:" << endl;
-		for(int i = 0; i < 1+m+extended; i++) {
-			for(int j = 0; j < 1+m+n; j++) 
-				cout << plan[i][j] << "\t";
+			cout << "\tПеременные в базисе index["<<m<<"]:" << endl;
+			for(int i = 0; i < m; i++)
+				cout << index[i] << "\t";
 			cout << endl;
 		}
-
-		cout << "\tПеременные в базисе index["<<m<<"]:" << endl;
-		for(int i = 0; i < m; i++)
-			cout << index[i] << "\t";
-		cout << endl;
 
 		// Проверяем текущий план на оптимальность
 		// Если все оценки в последней строке плана неположительные, то план оптимален
@@ -130,7 +131,7 @@ int simplex(double **plan, int *index, int *flags, int m, int n, int extended) {
 			}
 		}
 
-		cout << "\tРешающий элемент: (" << r << "," << c << ")" << endl;
+		if(demo!=0) cout << "\tРешающий элемент: (" << r << "," << c << ")" << endl;
 
 		// Выполняем алгоритм Гаусса-Жордана для заданного решающего элемента матрицы
 		gauss_jordan(plan, r, c, 1+m+extended, 1+m+n);

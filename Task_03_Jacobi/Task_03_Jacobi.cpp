@@ -12,7 +12,7 @@ int main(){
 	int *x; // вектор координат точки воздействия
 	double value; // величина воздействия
 	int mode; // режим
-
+	int demo; // режим программы
 	setlocale(LC_ALL, "Russian");
 
 	cout << "\tМодель, реализующая матрицу Якоби, замкнутую в тор" << endl;
@@ -36,10 +36,20 @@ int main(){
 
 	cout << "\tУкажите режим (0 - непреравное воздействе, 1 - однократное воздействие):" << endl; cin >> mode;
 
-	if(jacobi_tor(n,m,x,value,mode)!=0) cout << "\tОшибка аллокирования памяти" << endl;
+	cout << "\tДемонстрационный режим програмы (0 - замер времени, 1 - демонстрация работоспособности):" << endl; cin >> demo;
+
+	clock_t t = clock();
+	if(jacobi_tor(n,m,x,value,mode, demo)!=0) cout << "\tОшибка аллокирования памяти" << endl;
+	t = clock()-t;
+
+	double seconds = ((double)t)/CLOCKS_PER_SEC;
+	cout << "\tВремя выполнения: " << seconds << "sec" << endl;
 
 	delete m;
 	delete x;
+
+	getchar();
+	getchar();
 
 	return 0;
 }

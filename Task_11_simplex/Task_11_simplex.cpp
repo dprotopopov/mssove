@@ -16,6 +16,7 @@ int main()
 	double *b;
 	double *c;
 	double *x;
+	int demo; // режим программы
 
 	setlocale(LC_ALL, "Russian");
 
@@ -45,13 +46,20 @@ int main()
 	for(int j = 0; j < n; j++)
 		cin >> c[j];
 
-	if((x = ration(a, b, c, m, n)) == NULL)
+	cout << "\tДемонстрационный режим програмы (0 - замер времени, 1 - демонстрация работоспособности):" << endl; cin >> demo;
+
+	clock_t t = clock();
+	if((x = ration(a, b, c, m, n, demo)) == NULL)
 	{
 		cout << "Решение не найдено." << endl;
 		getchar();
 		getchar();
 		return -1;
 	}
+	t = clock()-t;
+
+	double seconds = ((double)t)/CLOCKS_PER_SEC;
+	cout << "\tВремя выполнения: " << seconds << "sec" << endl;
 
 	cout << "\tРешение: " << endl;
 	for(int j = 0; j < n; j++) cout << x[j] << '\t'; cout << endl;
@@ -60,14 +68,14 @@ int main()
 	cout << "\tЗначение: " << endl;
 	cout << f << endl;
 
-	getchar();
-	getchar();
-
 	for(int i = 0; i < m; i++) delete a[i];
 	delete a;
 	delete b;
 	delete c;
 	delete x;
+
+	getchar();
+	getchar();
 
 	return 0;
 }

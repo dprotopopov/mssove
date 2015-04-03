@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_03_Jacobi", "Task_03_J
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_04_Jacobi", "Task_04_Jacobi\Task_04_Jacobi.vcxproj", "{13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_05_Jacobi", "Task_05_Jacobi\Task_05_Jacobi.vcxproj", "{CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB}.Debug|Win32.Build.0 = Debug|Win32
 		{13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB}.Release|Win32.ActiveCfg = Release|Win32
 		{13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB}.Release|Win32.Build.0 = Release|Win32
+		{CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0}.Debug|Win32.Build.0 = Debug|Win32
+		{CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0}.Release|Win32.ActiveCfg = Release|Win32
+		{CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,46 +4,30 @@
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:quickSort.cpp" caret="0" fromTop="0" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:findMinMax.cpp" caret="0" fromTop="0" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:mult.cpp" caret="572" fromTop="7" />
-    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:main.cpp" caret="104" fromTop="5" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:Header.hpp" caret="21" fromTop="1" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="346" fromTop="9" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Header.hpp" caret="174" fromTop="6" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Task_11_simplex.cpp" caret="1752" fromTop="46" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="109" fromTop="3" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Header.hpp" caret="168" fromTop="4" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3582" fromTop="87" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="432" fromTop="0" />
+    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:heapSort.cpp" caret="0" fromTop="0" />
+    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:main.cpp" caret="0" fromTop="0" />
+    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="0" fromTop="0" />
+    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Task_11_simplex.cpp" caret="0" fromTop="0" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="1354" fromTop="18" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="862" fromTop="18" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="2142" fromTop="58" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Header.hpp" caret="158" fromTop="6" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Task_05_Jacobi.cpp" caret="623" fromTop="18" />
   </RecentFiles>
   <RecentEdits>
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3172" fromTop="15" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="613" fromTop="9" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Header.hpp" caret="168" fromTop="4" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3512" fromTop="5" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="289" fromTop="5" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="1851" fromTop="13" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="617" fromTop="10" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="1088" fromTop="16" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="1201" fromTop="20" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="440" fromTop="13" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="1491" fromTop="16" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Header.hpp" caret="39" fromTop="2" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3306" fromTop="7" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3809" fromTop="13" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3113" fromTop="10" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3612" fromTop="10" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="115" fromTop="4" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="4004" fromTop="17" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="1249" fromTop="11" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="2092" fromTop="14" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="2250" fromTop="23" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="1998" fromTop="18" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="162" fromTop="4" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3017" fromTop="16" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="2597" fromTop="16" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2497" fromTop="16" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2308" fromTop="11" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2828" fromTop="13" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="1359" fromTop="11" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="1295" fromTop="7" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Task_05_Jacobi.cpp" caret="708" fromTop="10" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Task_05_Jacobi.cpp" caret="244" fromTop="6" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="394" fromTop="13" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="406" fromTop="11" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Header.hpp" caret="66" fromTop="2" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="2409" fromTop="18" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="1841" fromTop="18" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="2103" fromTop="25" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="2799" fromTop="19" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="1163" fromTop="14" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="862" fromTop="18" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Task_05_Jacobi.cpp" caret="1087" fromTop="14" />
+    <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Task_05_Jacobi.cpp" caret="611" fromTop="17" />
   </RecentEdits>
 </RecentFiles>

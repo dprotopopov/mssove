@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PiR", "PiR\PiR.vcxproj", "{27009ACD-7FF6-4C91-A81D-D2864F154E8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_01_matrix", "Task_01_matrix\Task_01_matrix.vcxproj", "{2ADD1104-EA98-4060-B2D3-DD346F13669B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_11_simplex", "Task_11_simplex\Task_11_simplex.vcxproj", "{E87DF248-167A-4267-A26B-B9318A050B27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27009ACD-7FF6-4C91-A81D-D2864F154E8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27009ACD-7FF6-4C91-A81D-D2864F154E8B}.Debug|Win32.Build.0 = Debug|Win32
+		{27009ACD-7FF6-4C91-A81D-D2864F154E8B}.Release|Win32.ActiveCfg = Release|Win32
+		{27009ACD-7FF6-4C91-A81D-D2864F154E8B}.Release|Win32.Build.0 = Release|Win32
+		{2ADD1104-EA98-4060-B2D3-DD346F13669B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2ADD1104-EA98-4060-B2D3-DD346F13669B}.Debug|Win32.Build.0 = Debug|Win32
+		{2ADD1104-EA98-4060-B2D3-DD346F13669B}.Release|Win32.ActiveCfg = Release|Win32
+		{2ADD1104-EA98-4060-B2D3-DD346F13669B}.Release|Win32.Build.0 = Release|Win32
+		{E87DF248-167A-4267-A26B-B9318A050B27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E87DF248-167A-4267-A26B-B9318A050B27}.Debug|Win32.Build.0 = Debug|Win32
+		{E87DF248-167A-4267-A26B-B9318A050B27}.Release|Win32.ActiveCfg = Release|Win32
+		{E87DF248-167A-4267-A26B-B9318A050B27}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

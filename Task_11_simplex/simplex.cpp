@@ -14,7 +14,6 @@ n - количество переменных (столбцов)
 double *ration(double **a, double *b, double *c, int m, int n, int demo){
 	
 	// Метод искусственного базиса
-	// http://matesha.ru/book/lp5.php
 
 	double **plan; // Симплекс-таблица
 	int *index; // Индексы переменных в базисе 

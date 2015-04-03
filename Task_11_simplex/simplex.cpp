@@ -31,16 +31,19 @@ double *ration(double **a, double *b, double *c, int m, int n, int demo){
 	for(int i = 0; i < m+2; i++)
 		plan[i] = new double[1+m+n];
 
+#pragma omp parallel for
 	for(int i = 0; i < m; i++)
 		for(int j = 0; j < m+n; j++)
 			plan[i][j+1]=(j<n)?(a[i][j]):((j==(n+i))?-1:0);
 
 	// ‘ормируем F строку матрицы 
+#pragma omp parallel for
 	for(int j = 0; j < m+n; j++) {
 		plan[m][j+1] = (j<n)?(-c[j]):0;
 	}
 
 	// ‘ормируем M строку матрицы 
+#pragma omp parallel for
 	for(int j = 0; j < m+n; j++) {
 		plan[m+1][j+1] = (j<n)?0:-1;
 		if(j<n) for(int i = 0; i < m; i++) plan[m+1][j+1] += a[i][j];
@@ -157,6 +160,7 @@ void gauss_jordan(double **data, int r, int c, int m, int n) {
 	double d = data[r][c];
 	double epsilon=1e-7; // точность вычислений с плавающей точкой
 
+#pragma omp parallel for
 	for(int i=0;i<m;i++)
 		for(int j=0;j<n;j++)
 			if(i!=r && j!=c) {
@@ -164,10 +168,12 @@ void gauss_jordan(double **data, int r, int c, int m, int n) {
 				if(abs(data[i][j])<epsilon) data[i][j]=0;
 			}
 
+#pragma omp parallel for
 	for(int j=0;j<n;j++)
 		if(j!=c)
 			data[r][j] /= d;
 
+#pragma omp parallel for
 	for(int i=0;i<m;i++)
 		if(i!=r)
 			data[i][c] = 0;

@@ -19,13 +19,9 @@ int jacobi_field(int n,int *m,int *x,double value,int mode, int demo){
 	
 	double *prevMatrix = new double[total]; // Многомерные массивы хранятся в виде одномерной последовательности
 	double *nextMatrix = new double[total]; // Многомерные массивы хранятся в виде одномерной последовательности
-	int *x0 = new int[n];
-	int *x1 = new int[n];
 
 	if(prevMatrix==NULL) return -1; // Ошибка аллокирования памяти
 	if(nextMatrix==NULL) return -1; // Ошибка аллокирования памяти
-	if(x0==NULL) return -1; // Ошибка аллокирования памяти
-	if(x1==NULL) return -1; // Ошибка аллокирования памяти
 
 	for(int i = 0; i < total; i++) prevMatrix[i]=0;
 	int index = indexOf(x,m,n); // индекс точки воздействия
@@ -44,7 +40,10 @@ int jacobi_field(int n,int *m,int *x,double value,int mode, int demo){
 		}
 
 		// Шаг итераций
+#pragma omp parallel for
 		for(int i = 0; i < total; i++) {
+			int *x0 = new int[n];
+			int *x1 = new int[n];
 			nextMatrix[i]=0;
 			vectorOf(i, x0, m, n);
 			// Вычисляем среднее соседних точек к точке x0 по каждому из измерений
@@ -64,6 +63,8 @@ int jacobi_field(int n,int *m,int *x,double value,int mode, int demo){
 					nextMatrix[i] += 0; // состояние пространства за пределом матрицы принимается равным 0
 			}
 			nextMatrix[i] /= 2*n;
+			delete x0;
+			delete x1;
 		}
 
 		if(demo!=0) {
@@ -99,8 +100,6 @@ int jacobi_field(int n,int *m,int *x,double value,int mode, int demo){
 
 	delete prevMatrix;
 	delete nextMatrix;
-	delete x0;
-	delete x1;
 	return 0;
 }
 

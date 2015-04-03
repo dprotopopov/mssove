@@ -1,44 +1,49 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:Header.hpp" caret="180" fromTop="7" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:minor.cpp" caret="311" fromTop="9" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:quickSort.cpp" caret="0" fromTop="0" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:findMinMax.cpp" caret="0" fromTop="0" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:mult.cpp" caret="572" fromTop="7" />
-    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:main.cpp" caret="1047" fromTop="0" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3092" fromTop="100" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Header.hpp" caret="168" fromTop="4" />
+    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:main.cpp" caret="104" fromTop="5" />
+    <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:Header.hpp" caret="21" fromTop="1" />
+    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="346" fromTop="9" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Header.hpp" caret="174" fromTop="6" />
+    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Task_11_simplex.cpp" caret="1752" fromTop="46" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="109" fromTop="3" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Header.hpp" caret="168" fromTop="4" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3582" fromTop="87" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="432" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="495" fromTop="11" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1042" fromTop="10" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="4302" fromTop="21" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="5113" fromTop="20" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="2085" fromTop="6" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="45" fromTop="2" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="2518" fromTop="11" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1525" fromTop="20" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1525" fromTop="19" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1151" fromTop="19" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1525" fromTop="26" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1413" fromTop="11" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3827" fromTop="24" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3128" fromTop="10" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1254" fromTop="8" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3540" fromTop="16" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="940" fromTop="15" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="2183" fromTop="20" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3322" fromTop="13" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3037" fromTop="8" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Header.hpp" caret="168" fromTop="4" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="4285" fromTop="22" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1656" fromTop="13" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1974" fromTop="20" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="4968" fromTop="17" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="4805" fromTop="12" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="3688" fromTop="10" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="4004" fromTop="17" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="2508" fromTop="2" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="2727" fromTop="9" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3172" fromTop="15" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="613" fromTop="9" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Header.hpp" caret="168" fromTop="4" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3512" fromTop="5" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="289" fromTop="5" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="1851" fromTop="13" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="617" fromTop="10" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="1088" fromTop="16" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="1201" fromTop="20" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="440" fromTop="13" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="1491" fromTop="16" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Header.hpp" caret="39" fromTop="2" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3306" fromTop="7" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3809" fromTop="13" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3113" fromTop="10" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="3612" fromTop="10" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="115" fromTop="4" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="4004" fromTop="17" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="1249" fromTop="11" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="2092" fromTop="14" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="2250" fromTop="23" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="1998" fromTop="18" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="162" fromTop="4" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3017" fromTop="16" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="2597" fromTop="16" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2497" fromTop="16" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2308" fromTop="11" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2828" fromTop="13" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="1359" fromTop="11" />
+    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="1295" fromTop="7" />
   </RecentEdits>
 </RecentFiles>

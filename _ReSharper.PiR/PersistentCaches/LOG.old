@@ -1,5 +1,5 @@
-2015/04/03-05:26:55.720 215c Recovering log #3
-2015/04/03-05:26:55.720 215c Level-0 table #5: started
-2015/04/03-05:26:55.798 215c Level-0 table #5: 27510 bytes OK
-2015/04/03-05:26:55.923 215c Delete type=0 #3
-2015/04/03-05:26:55.923 215c Delete type=3 #2
+2015/04/03-07:56:08.207 215c Recovering log #6
+2015/04/03-07:56:08.207 215c Level-0 table #8: started
+2015/04/03-07:56:08.270 215c Level-0 table #8: 22666 bytes OK
+2015/04/03-07:56:08.364 215c Delete type=0 #6
+2015/04/03-07:56:08.364 215c Delete type=3 #4

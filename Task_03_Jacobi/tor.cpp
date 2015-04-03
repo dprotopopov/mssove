@@ -38,7 +38,10 @@ int jacobi_tor(int n,int *m,int *x,double value,int mode){
 		cout << "\tШаг итерации:" << t << endl;
 
 		cout << "\tИсходное состояние матрицы:" << endl; 
-		for(int i = 0; i < total; i++) cout << prevMatrix[i] << '\t'; cout << endl;
+		for(int i = 0; i < total; i++) {
+			cout << prevMatrix[i] << '\t'; 
+			if(i%m[0]==m[0]-1) cout << endl;
+		}
 
 		// Шаг итераций
 		for(int i = 0; i < total; i++) {
@@ -55,7 +58,10 @@ int jacobi_tor(int n,int *m,int *x,double value,int mode){
 		}
 
 		cout << "\tНовое состояние матрицы:" << endl; 
-		for(int i = 0; i < total; i++) cout << nextMatrix[i] << '\t'; cout << endl;
+		for(int i = 0; i < total; i++) {
+			cout << nextMatrix[i] << '\t'; 
+			if(i%m[0]==m[0]-1) cout << endl;
+		}
 
 		// Расчёт разницы (кроме точки воздействия при непрерывном воздействии)
 		double delta = 0;

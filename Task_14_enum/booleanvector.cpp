@@ -1,0 +1,79 @@
+#include "Header.hpp"
+using namespace std;
+
+/********************************************************
+Обнуление двоичного вектора
+vector - указатель на массив
+count - количество элементов
+*********************************************************/
+void clear(int *vector, int count)
+{
+#pragma omp parallel for
+	for(int i=0;i<count;i++)
+		vector[i]=0;
+}
+/********************************************************
+Число ненулевых элементов двоичного вектора
+vector - указатель на массив
+count - количество элементов
+*********************************************************/
+int sum(int *vector, int count)
+{
+	int s=0;
+	for(int i=0;i<count;i++)
+		s+=vector[i];
+	return s;
+}
+/********************************************************
+Булева операция AND элементов двоичных векторов
+vector1 - указатель на массив
+vector2 - указатель на массив
+result - указатель на массив
+count - количество элементов
+*********************************************************/
+void and(int *vector1, int *vector2,int *result,  int count)
+{
+#pragma omp parallel for
+	for(int i=0;i<count;i++)
+		result[i]=vector1[i]&vector2[i];
+}
+/********************************************************
+Булева операция OR элементов двоичных векторов
+vector1 - указатель на массив
+vector2 - указатель на массив
+result - указатель на массив
+count - количество элементов
+*********************************************************/
+void or(int *vector1, int *vector2,int *result,  int count)
+{
+#pragma omp parallel for
+	for(int i=0;i<count;i++)
+		result[i]=vector1[i]|vector2[i];
+}
+/********************************************************
+Булева операция XOR элементов двоичных векторов
+vector1 - указатель на массив
+vector2 - указатель на массив
+result - указатель на массив
+count - количество элементов
+*********************************************************/
+void xor(int *vector1, int *vector2,int *result,  int count)
+{
+#pragma omp parallel for
+	for(int i=0;i<count;i++)
+		result[i]=vector1[i]^vector2[i];
+}
+/********************************************************
+Булева операция SUB элементов двоичных векторов
+vector1 - указатель на массив
+vector2 - указатель на массив
+result - указатель на массив
+count - количество элементов
+*********************************************************/
+void sub(int *vector1, int *vector2,int *result,  int count)
+{
+#pragma omp parallel for
+	for(int i=0;i<count;i++)
+		result[i]=vector1[i]&(vector1[i]^vector2[i]);
+}
+

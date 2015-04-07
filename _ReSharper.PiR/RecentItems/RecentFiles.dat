@@ -9,50 +9,53 @@
     <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Header.hpp" caret="81" fromTop="1" />
     <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Header.hpp" caret="83" fromTop="2" />
     <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Header.hpp" caret="81" fromTop="1" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Task_11_simplex.cpp" caret="2105" fromTop="21" />
     <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:Task_05_Jacobi.cpp" caret="1432" fromTop="15" />
     <File id="2ADD1104-EA98-4060-B2D3-DD346F13669B/f:main.cpp" caret="2267" fromTop="16" />
     <File id="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0/f:field.cpp" caret="957" fromTop="0" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Header.hpp" caret="250" fromTop="7" />
     <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Header.hpp" caret="244" fromTop="6" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="2765" fromTop="93" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="0" fromTop="0" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="5307" fromTop="15" />
     <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="4208" fromTop="18" />
     <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:Task_04_Jacobi.cpp" caret="0" fromTop="0" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="4011" fromTop="8" />
     <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Task_03_Jacobi.cpp" caret="1391" fromTop="9" />
+    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="2797" fromTop="21" />
+    <File id="900C4C49-03EB-406F-839D-CCA016420607/f:Task_13_integral.cpp" caret="1023" fromTop="20" />
+    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="1355" fromTop="15" />
+    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:Task_11_simplex.cpp" caret="0" fromTop="0" />
+    <File id="900C4C49-03EB-406F-839D-CCA016420607/f:Header.hpp" caret="165" fromTop="4" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Header.hpp" caret="409" fromTop="10" />
+    <File id="900C4C49-03EB-406F-839D-CCA016420607/f:integral.cpp" caret="2629" fromTop="76" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="2388" fromTop="21" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4650" fromTop="87" />
   </RecentFiles>
   <RecentEdits>
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="4974" fromTop="9" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="301" fromTop="8" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="571" fromTop="19" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="670" fromTop="19" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="999" fromTop="17" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="467" fromTop="9" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="155" fromTop="7" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="4165" fromTop="27" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="545" fromTop="14" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="824" fromTop="15" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="305" fromTop="4" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="1151" fromTop="9" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Header.hpp" caret="250" fromTop="7" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="1552" fromTop="22" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="1799" fromTop="24" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="1282" fromTop="17" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="2048" fromTop="20" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="2197" fromTop="11" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="3199" fromTop="27" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="2442" fromTop="17" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:Task_12_area.cpp" caret="1364" fromTop="15" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="3132" fromTop="24" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="3132" fromTop="24" />
-    <File id="03B96DFE-408B-4080-B963-E0776DBF9DF7/f:area.cpp" caret="2633" fromTop="16" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:Task_03_Jacobi.cpp" caret="1350" fromTop="9" />
-    <File id="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88/f:tor.cpp" caret="370" fromTop="10" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="213" fromTop="7" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="382" fromTop="11" />
-    <File id="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB/f:field.cpp" caret="3828" fromTop="4" />
-    <File id="E87DF248-167A-4267-A26B-B9318A050B27/f:simplex.cpp" caret="592" fromTop="13" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4880" fromTop="26" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4875" fromTop="18" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="5048" fromTop="27" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="5042" fromTop="25" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="193" fromTop="6" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="590" fromTop="19" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="437" fromTop="9" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="696" fromTop="20" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="835" fromTop="21" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="802" fromTop="15" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="1432" fromTop="25" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="1220" fromTop="19" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="1878" fromTop="23" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="1664" fromTop="17" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="1929" fromTop="14" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="311" fromTop="10" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="618" fromTop="5" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4067" fromTop="16" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Header.hpp" caret="352" fromTop="8" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="2333" fromTop="15" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:booleanvector.cpp" caret="2113" fromTop="9" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="3925" fromTop="18" />
+    <File id="900C4C49-03EB-406F-839D-CCA016420607/f:integral.cpp" caret="2246" fromTop="21" />
+    <File id="900C4C49-03EB-406F-839D-CCA016420607/f:integral.cpp" caret="2106" fromTop="14" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="2573" fromTop="10" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="3582" fromTop="12" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4331" fromTop="13" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4440" fromTop="17" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4549" fromTop="21" />
+    <File id="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE/f:Task_14_enum.cpp" caret="4658" fromTop="25" />
   </RecentEdits>
 </RecentFiles>

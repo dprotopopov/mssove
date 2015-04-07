@@ -7,4 +7,6 @@
   <Module PersistentId="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB" ModuleId="Task_04_Jacobi" />
   <Module PersistentId="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0" ModuleId="Task_05_Jacobi" />
   <Module PersistentId="03B96DFE-408B-4080-B963-E0776DBF9DF7" ModuleId="Task_12_area" />
+  <Module PersistentId="900C4C49-03EB-406F-839D-CCA016420607" ModuleId="Task_13_integral" />
+  <Module PersistentId="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE" ModuleId="Task_14_enum" />
 </Modules>

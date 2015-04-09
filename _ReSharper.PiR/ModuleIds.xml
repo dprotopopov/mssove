@@ -1,12 +1,16 @@
 <Modules>
   <Module PersistentId="27009ACD-7FF6-4C91-A81D-D2864F154E8B" ModuleId="PiR" />
   <Module PersistentId="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=c08d55d3-6463-439d-b112-60f6502ec141" ModuleId="System.Core" />
-  <Module PersistentId="2ADD1104-EA98-4060-B2D3-DD346F13669B" ModuleId="Task_01_matrix" />
-  <Module PersistentId="E87DF248-167A-4267-A26B-B9318A050B27" ModuleId="Task_11_simplex" />
-  <Module PersistentId="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88" ModuleId="Task_03_Jacobi" />
-  <Module PersistentId="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB" ModuleId="Task_04_Jacobi" />
-  <Module PersistentId="CEDBD2B5-E02C-4283-AE12-2FE2C8015EE0" ModuleId="Task_05_Jacobi" />
-  <Module PersistentId="03B96DFE-408B-4080-B963-E0776DBF9DF7" ModuleId="Task_12_area" />
-  <Module PersistentId="900C4C49-03EB-406F-839D-CCA016420607" ModuleId="Task_13_integral" />
-  <Module PersistentId="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE" ModuleId="Task_14_enum" />
+  <Module PersistentId="48C0F070-1881-47EF-8E0C-0D1D84F6B6EE" ModuleId="Task_1_14_enum" />
+  <Module PersistentId="900C4C49-03EB-406F-839D-CCA016420607" ModuleId="Task_1_13_integral" />
+  <Module PersistentId="E87DF248-167A-4267-A26B-B9318A050B27" ModuleId="Task_1_11_simplex" />
+  <Module PersistentId="13D9C2A2-A06C-4EBC-B4E8-F4F1183633CB" ModuleId="Task_1_04_Jacobi" />
+  <Module PersistentId="E18C6DE9-31B4-4F35-BC69-CE63D35B1B88" ModuleId="Task_1_03_Jacobi" />
+  <Module PersistentId="2ADD1104-EA98-4060-B2D3-DD346F13669B" ModuleId="Task_1_01_matrix" />
+  <Module PersistentId="CFC00F03-B1CF-43E9-AA64-971953BD5B95" ModuleId="Task_2_01_matrix" />
+  <Module PersistentId="55D13FF5-04BB-42A2-B4A6-F291A54069D4" ModuleId="Task_2_03_Jacobi" />
+  <Module PersistentId="A72392ED-1572-4990-AC7B-E712F4331BEC" ModuleId="Task_2_04_Jacobi" />
+  <Module PersistentId="B5B92456-3391-4A5E-8C8C-2EDAF445C82A" ModuleId="Task_2_11_simplex" />
+  <Module PersistentId="44901F1B-4BEA-4DEF-AA8A-F82527C5280F" ModuleId="Task_2_13_integral" />
+  <Module PersistentId="B3AB65DE-88C5-4C1E-AA49-BEDBEF4D524A" ModuleId="Task_2_14_enum" />
 </Modules>
